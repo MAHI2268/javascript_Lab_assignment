@@ -1,21 +1,26 @@
+# Assignment 2: Operators, Type Conversion And A Calculator
 
-# Assignment 2: Arithmetic Operators, Type Conversion, and Conditional Statements
+## Experiment Title
+Operators, Type Conversion and a Calculator
 
 ## Aim
-To use arithmetic operators, convert between text and numbers, and use if and else if statements to choose an operation.
+Use arithmetic operators, convert between strings and numbers, and select an operation using if and else if.
 
-## Tasks Completed
+## Software / Tools Required
+Visual Studio Code or any text editor, a modern web browser (for browser-based tasks), and Node.js (for .js programs).
 
-### Task 1: Arithmetic Operators
-- Created a JavaScript file named `task1.js`.
-- Used the numbers 17 and 5.
-- Performed four arithmetic operations:
-  - Addition (+)
-  - Subtraction (-)
-  - Multiplication (*)
-  - Division (/)
+## Theory
+JavaScript arithmetic operators perform calculations. The + operator can add numbers or concatenate strings. Number() converts a numeric string into a number, while String() converts a value into text. Conditional statements such as if and else if allow a program to choose which operation to perform based on a condition.
 
-**Output:**
+## Question 1: Perform arithmetic operations on 17 and 5.
+
+### Algorithm / Procedure
+Declare the two numbers and print their sum, difference, product and quotient.
+
+### Input
+Values and test data are declared in the program as specified in the task.
+
+### Output
 ```text
 Sum: 22
 Difference: 12
@@ -23,80 +28,50 @@ Product: 85
 Quotient: 3.4
 ```
 
-### Task 2: Type Conversion
-- Created a JavaScript file named `task2.js`.
-- Converted the text "12" into a number using `Number()`.
-- Added 5 to the converted number.
-- Converted the number 7 into text using `String()`.
-- Joined it with the text "3" using string concatenation.
+### Result
+The task was completed successfully. The program produced the expected output: Sum: 22
+Difference: 12
+Product: 85
+Quotient: 3.4.
 
-**Output:**
+## Question 2: Convert text to a number and a number to text.
+
+### Algorithm / Procedure
+Use Number() to convert "12", add 5, then use String() and concatenate with "3".
+
+### Input
+Values and test data are declared in the program as specified in the task.
+
+### Output
 ```text
 17
 73
 ```
 
-### Task 3: Conditional Statements
-- Created a JavaScript file named `task3.js`.
-- Used the numbers 8 and 4.
-- Used the `if` and `else if` statements to check the operator.
-- Performed addition when the operator was "+".
-- Changed the operator to "-" and performed subtraction.
+### Result
+The task was completed successfully. The program produced the expected output: 17
+73.
 
-**Output:**
+## Question 3: Choose an arithmetic operation using if and else if.
+
+### Algorithm / Procedure
+Use 8 and 4 with the + operator, then change the operator to - and run the same selection logic.
+
+### Input
+Values and test data are declared in the program as specified in the task.
+
+### Output
 ```text
-Sum: 12
-Difference: 4
+Result: 12
+Result: 4
 ```
 
-## Files Included
+### Result
+The task was completed successfully. The program produced the expected output: Result: 12
+Result: 4.
 
-```text
-Assignment-2/
-│
-├── task1.js
-├── task2.js
-├── task3.js
-├── output.txt
-└── README.md
-```
-
-## How to Run
-
-Make sure Node.js is installed on your computer.
-
-Open the terminal in the assignment folder and run the following commands:
-
-### Task 1
-```bash
-node task1.js
-```
-
-### Task 2
-```bash
-node task2.js
-```
-
-### Task 3
-```bash
-node task3.js
-```
-
-## Requirements
-- Node.js
-- Visual Studio Code or any code editor
-- Command Prompt or Terminal
-
-## Conclusion
-
-In this assignment, I learned:
-
-1. How to use arithmetic operators such as addition, subtraction, multiplication, and division.
-2. How to convert text into numbers using `Number()`.
-3. How to convert numbers into text using `String()`.
-4. How to use `if` and `else if` statements to perform operations based on conditions.
-
----
-
-**Assignment:** 2  
-**Topic:** Arithmetic Operators, Type Conversion, and Conditional Statements
+## Viva-Voce Questions
+- Name four arithmetic operators in JavaScript.
+- What is type conversion?
+- What is the difference between == and ===?
+- How does an if...else statement work?
